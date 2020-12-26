@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(uxback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+
+}
+#select-1 select{
+    width: 350px;
+    margin-top: 30px;
+}
+.container{
+    background-color: white;
+    width: 80%;
+    height: 400px;
+    position: relative;
+    margin-top: 40px;
+    color: rgb(5, 212, 248);
+    border-radius: 15px;
+
+}
+.container h3{
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#check #number{
+    width: 230px;
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+ 
+}
+#check{
+    position: relative;
+    top: 30px;
+}
+.btn{
+    background-color: rgb(5, 212, 248);
+    right: 20px;
+    position: absolute;
+    margin-top: 20px;
+    color: white;
+}
